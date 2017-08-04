@@ -408,7 +408,7 @@ var uploadPhoto = function (args) {
       });
     });
     form.pipe(req);
-    req.end();
+    //req.end();
 
     req.on('error', function(e) {
       console.error(e);
